@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Entrega 3</title>
+</head>
+
+<div class="origen" id="texto">OPRIME  K-L-E</div>
+
+
+<body onkeypress="teclado()">
+	<script>
+		function teclado()
+		{
+			console.log(event.type);
+			console.log(event.code);
+
+			if (event.code=="KeyK")
+			 {
+	 			 var e = document.getElementById("texto");
+	 			 e.classList.add('origen2');
+	 			 e.classList.remove('origen');
+	 			 e.classList.remove('origen3');
+	 			 e.classList.remove('origen4');
+
+	 			var yessr=document.getElementById('yessr').value;
+	 			document.getElementById('texto').innerHTML=yessr;
+
+  				
+			}
+			else
+			{}
+				
+				if (event.code=="KeyE")
+					 {
+					 var e1 = document.getElementById("texto");
+	 				 e1.classList.add('origen3');	
+	 				 e1.classList.remove('origen2');
+	 				 e1.classList.remove('origen');
+	 				 e1.classList.remove('origen4');
+	 				 var yessr=document.getElementById('yessr').value;
+	 			     document.getElementById('texto').innerHTML=yessr;
+			 					
+									}
+									else
+									{}
+
+
+					       if (event.code=="KeyL")
+			 					       {
+			 	        	   	 var e2 = document.getElementById("texto");
+	 			 				e2.classList.add('origen4');
+	 			 				e2.classList.remove('origen');
+	 			 				e2.classList.remove('origen2');
+	 							e2.classList.remove('origen3');
+	 						    var yessr=document.getElementById('yessr').value;
+	 			                document.getElementById('texto').innerHTML=yessr;
+			 						  		
+									}
+									else
+										{}	
+					
+				
+		}
+	</script>
+
+	
+
+
+	
+		
+	<input type="text"  id="yessr">	<td></td>
+	<label>Despues de escribir vuelva a presionar "k-l-e"</label>	
+	
+
+</body>
+</html>

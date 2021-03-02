@@ -1,0 +1,72 @@
+body{
+	background:url(wallpa.jpg); 
+}
+
+
+.origen{
+	height:550px; 
+	width:1175px;
+	margin-left: 50px;
+	margin-top: 0px;
+	background-color: #6CAF77;
+	color: white;
+	font-family: monaco;
+	font-size: 40px;
+
+}
+
+
+#texto{
+	text-align: center;
+	font-size: 60px;
+}
+
+.origen2{
+	height:550px; 
+	width:1175px;
+	margin-left: 50px;
+	margin-top: 0px;
+	background-color: #E74352;
+	border-radius: 30px;
+	font-size: 60px;
+	font-family: monaco;
+	color: white
+}
+
+.origen3{
+	height:550px; 
+	width:1175px;
+	margin-left: 50px;
+	margin-top: 0px;
+	background-color: #E2C71D;
+	border-radius: 30px;
+	font-size: 60px;
+	font-family: monaco;
+	color: white
+}
+
+
+.origen4{
+	height:550px; 
+	width:1175px;
+	margin-left: 50px;
+	margin-top: 0px;
+	background-color: #2E43F8 ;
+	border-radius: 30px;
+	font-size: 60px;
+	font-family: monaco;
+	color: white
+}
+
+#yessr {
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	background-color: gray;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 550px;
+	border-radius: 5px,5px,5px,5px;
+	padding: 2px;
+
+}
